@@ -10,3 +10,7 @@ Agar if false hai, to else wala code execute karo.
 3. else if
 --------------
 Jab multiple conditions check karni ho tab else if use karte hain.
+
+4.Switch
+----
+

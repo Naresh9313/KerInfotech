@@ -1,0 +1,5 @@
+| Loop         | Condition kab check hoti hai? | Minimum execution |
+| ------------ | ----------------------------- | ----------------- |
+| `for`        | Start me                      | 0 times           |
+| `while`      | Start me                      | 0 times           |
+| `do...while` | End me                        | 1 time            |

@@ -1,0 +1,34 @@
+| Method      | Kya karta hai?                  | Return                       |
+| ----------- | ------------------------------- | ---------------------------- |
+| `forEach()` | Har item par action             | Usually `undefined`          |
+| `map()`     | Har item ko transform karta hai | New Array                    |
+| `filter()`  | Matching items nikalta hai      | New Array                    |
+| `find()`    | First matching item             | Single element / `undefined` |
+| `some()`    | Koi ek condition satisfy?       | `true/false`                 |
+| `every()`   | Sab condition satisfy?          | `true/false`                 |
+| `sort()`    | Order arrange karta hai         | Sorted array                 |
+| `reduce()`  | Values ko combine karta hai     | Single value                 |
+
+
+
+--------------------
+Function Declaration
+↓
+Function banana
+
+Parameters
+↓
+Function ke inputs
+
+Return
+↓
+Function se result bahar bhejna
+
+Arrow Function
+↓
+Function likhne ka short syntax
+
+Default Parameter
+↓
+Argument na mile to default value
+

@@ -1,0 +1,234 @@
+JavaScript Full-Stack Development Training
+
+Day 1 — JavaScript Self-Learning
+
+Hello Team,
+As part of our upcoming JavaScript Full-Stack Development Training, we will first build a strong foundation in JavaScript.
+Before we start the practical training sessions, everyone is expected to complete the self-learning topics below and practice them independently.
+The objective is not just to watch tutorials. You should understand the concepts and write code yourself.
+1. JavaScript Fundamentals
+Please learn and practice the following:
+Variables
+Understand:
+var
+let
+const
+Variable declaration and assignment
+Scope
+Example:
+let name = "John";
+const age = 25;
+Data Types
+Understand:
+String
+Number
+Boolean
+Undefined
+Null
+Object
+Array
+
+Example:
+const name = "John";
+const age = 25;
+const isActive = true;
+const skills = ["JavaScript", "React"];
+
+2. Operators
+Learn:
+Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Increment/decrement operators
+Ternary operator
+You should understand the difference between:
+==
+===
+and:
+!=
+!==
+3. Conditional Statements
+Learn:
+if
+else
+else if
+switch
+Practice writing conditions based on real-world examples.
+Example:
+const age = 22;
+if (age >= 18) {
+    console.log("Eligible");
+} else {
+    console.log("Not Eligible");
+}
+4. Loops
+Learn and practice:
+for
+while
+do...while
+Example:
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+Practice:
+Print numbers from 1–100
+Print even numbers
+Print odd numbers
+Calculate the sum of numbers
+Create multiplication tables
+5. Functions
+Understand:
+Function declaration
+Function parameters
+Return values
+Arrow functions
+Default parameters
+Example:
+function add(a, b) {
+    return a + b;
+}
+const multiply = (a, b) => {
+    return a * b;
+};
+Practice creating functions for:
+Addition
+Subtraction
+Multiplication
+Division
+Finding the largest number
+Checking whether a number is even or odd
+6. Arrays
+Understand:
+Creating arrays
+Accessing elements
+Adding/removing elements
+Updating elements
+Array length
+Example:
+const students = ["John", "Alex", "David"];
+console.log(students[0]);
+console.log(students.length);
+Also start learning these important methods:
+forEach()
+map()
+filter()
+find()
+some()
+every()
+sort()
+reduce()
+You don’t need to master all of them today, but you should understand what they are used for.
+7. Objects
+Learn:
+Creating objects
+Properties
+Accessing properties
+Updating properties
+Adding properties
+Nested objects
+Array of objects
+Example:
+const employee = {
+    id: 1,
+    name: "John",
+    department: "Development",
+    salary: 50000
+};
+console.log(employee.name);
+console.log(employee.salary);
+Understand this structure carefully:
+const employees = [
+    {
+        id: 1,
+        name: "John",
+        department: "Development"
+    },
+    {
+        id: 2,
+        name: "Alex",
+        department: "QA"
+    },
+    {
+        id: 3,
+        name: "David",
+        department: "Development"
+    }
+];
+Array of objects is extremely important for React and backend development.
+8. Practice Assignment
+After completing the above topics, create a simple:
+Employee Management Program
+Use only JavaScript.
+Create an array of employees:
+const employees = [
+    {
+        id: 1,
+        name: "John",
+        department: "Development",
+        salary: 50000
+    },
+    {
+        id: 2,
+        name: "Alex",
+        department: "QA",
+        salary: 45000
+    },
+    {
+        id: 3,
+        name: "David",
+        department: "Development",
+        salary: 60000
+    }
+];
+Then write JavaScript code to perform the following:
+Task 1
+Display all employees.
+Task 2
+Find an employee by ID.
+Task 3
+Display only employees from the Development department.
+Task 4
+Find the employee with the highest salary.
+Task 5
+Calculate the average salary.
+Task 6
+Sort employees by salary.
+Task 7
+Add a new employee.
+Task 8
+Update an employee’s salary.
+Task 9
+Remove an employee.
+Task 10
+Search employees by name.
+Important Expectations
+Please don’t simply copy code from a tutorial or ChatGPT.
+You can use documentation and online resources to understand concepts, but write the solution yourself.
+During our training session, I may ask you:
+Why did you use let instead of const?
+What is the difference between == and ===?
+Why did you use map()?
+When would you use filter()?
+What is an object?
+What is an array of objects?
+How would you update an employee?
+How would you find the highest salary?
+How would you handle a situation where an employee doesn’t exist?
+The objective is to understand why the code works, not just make the code work.
+What You Should Complete Today
+Theory
+Variables
+Data types
+Operators
+Conditions
+Loops
+Functions
+Arrays
+Objects
+Array methods
+Practical
+Complete all 10 Employee Management tasks
+Run and test your code
+Make sure you understand your solution
+Push your code to your GitHub repository

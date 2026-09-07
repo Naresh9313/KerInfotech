@@ -1,0 +1,199 @@
+What is Variable?
+->Variable ek container hai jisme hum data store karte hain.
+
+
+
+Declaration & Assignment
+----------------------
+
+Declaration
+------------------------
+->Variable banana = declaration
+
+
+Assignment
+----------------------------
+->Variable me value dena = assignment
+
+Variable Ke Keywords
+---------------------------
+1)var
+2)let
+3)const
+
+
+let
+-----------------------------
+let ki value baad me change kar sakte ho.
+
+Kab use kare?
+->Jab value future me change hone wali ho.
+
+let age = 20;
+age = 25;
+console.log(age);
+
+Output:25
+
+
+const
+--------------------------------
+->const ka use object immutable nahi hota. Matlab variable ko doosre object se reassign nahi kar sakte.
+->jab value change nai krna ho to tab.
+->const declare krte vkt hi value assign krni pdti he.
+
+const name="naresh"
+console.log(name)
+output:naresh
+
+
+
+var(old version )
+-----------------------------
+var ki value baad me change kar sakte ho.
+
+var age = 20;
+age = 25;
+console.log(age);
+
+output:25
+
+
+Scope
+----------------
+Variable ko program ke kis area me access kar sakte hain.
+
+types
+----------------
+Global Scope
+Function Scope
+Block Scope
+
+
+Global Scope
+--------------------------
+Agar variable kisi function/block ke bahar hai
+
+
+let name = "Naresh";
+console.log(name);
+
+name ko bahar se access kar sakte hain.
+
+let name = "John";
+
+function greet() {
+    console.log(name);
+}
+
+greet();
+
+Function Scope
+-----------------
+Block generally { } ke andar hota hai.
+
+
+Datatypes
+--------------------------
+String
+Number
+Boolean
+Undefined
+Null
+Object
+Array
+
+
+
+1. STRING
+Text ko String kehte hain
+
+const name = "John";
+const city = "Ahmedabad";
+const course = "JavaScript";
+
+console.log("STRING:");
+console.log(name);
+console.log(city);
+console.log(course);
+
+
+
+2. NUMBER
+Integer aur decimal dono Number hote hain
+
+const age = 25;
+const salary = 50000;
+const price = 99.99;
+const temperature = -5;
+
+console.log("NUMBER:");
+console.log(age);
+console.log(salary);
+console.log(price);
+console.log(temperature);
+
+
+
+3. BOOLEAN
+Sirf true ya false
+
+const isActive = true;
+const isLoggedIn = false;
+const isStudent = true;
+
+console.log("BOOLEAN:");
+console.log(isActive);
+console.log(isLoggedIn);
+console.log(isStudent);
+
+
+
+4. UNDEFINED
+Variable declare hua hai,
+lekin value assign nahi hui
+
+let address;
+
+console.log("UNDEFINED:");
+console.log(address);
+
+
+
+5. NULL
+Intentionally empty value
+
+const manager = null;
+
+console.log("NULL:");
+console.log(manager);
+
+
+6. OBJECT
+Key-value pairs me data store hota hai
+
+const employee = {
+    id: 1,
+    name: "John",
+    department: "Development",
+    salary: 50000
+};
+
+console.log("OBJECT:");
+console.log(employee);
+
+
+7. ARRAY
+Multiple values store karne ke liye
+
+const skills = [
+    "JavaScript",
+    "React",
+    "Node.js"
+];
+
+console.log("ARRAY:");
+console.log(skills);
+
+
+

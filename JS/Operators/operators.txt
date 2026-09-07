@@ -1,0 +1,72 @@
+operator
+----------
+Operator ka use values par calculation, comparison ya decision lene ke liye hota hai.
+
+1️⃣ Arithmetic Operators
+-------------
+Arithmetic operators ka use mathematical calculation ke liye hota hai.
+
++    Addition  
+-    Subtraction
+*    Multiplication
+/    Division
+%    Remainder
+**   Power
+
+
+
+2️⃣ Assignment Operators
+---------------------------
+Assignment operators variable ko value assign/update karne ke liye use hote hain.
+
+=
++=\
+-=
+*=
+/=
+%=
+
+3️⃣ Comparison Operators
+----------------------------
+Comparison operators do values ko compare karte hain.
+>       Greater than
+<       Less than
+>=      Greater than or equal
+<=      Less than or equal
+==      Equal
+===     Strict equal
+!=      Not equal
+!==     Strict not equal
+
+
+4️⃣ Logical Operators 
+-----------
+Logical operators multiple conditions ko combine karne ke liye use hote hain.
+
+&&    AND
+||    OR
+!     NOT
+
+
+5️⃣ Increment / Decrement Operators
+------------------------
+Ye number ko 1 se increase/decrease karte hain.
+
+6️⃣ Ternary Operator 
+-----------------------------
+Ternary operator ek short form of if/else hai.
+
+
+
+== — (Loose Equality)
+-------------------
+== value compare karta hai aur zarurat padne par type conversion kar deta hai.
+
+console.log(5 == "5");
+
+=== — (Strict Equality)
+-------------------
+=== value + data type dono check karta hai.
+
+console.log(5 === "5");
+

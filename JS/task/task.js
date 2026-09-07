@@ -19,19 +19,16 @@ const employees = [
   },
 ];
 
-
-
 // Task 1
 employees.forEach((emp) => {
-  console.log(`Employee ID: ${emp.id}, Name: ${emp.name}, Department: ${emp.department}, Salary: ${emp.salary}`);
+  console.log(
+    `Employee ID: ${emp.id}, Name: ${emp.name}, Department: ${emp.department}, Salary: ${emp.salary}`,
+  );
 });
 
 // Task 2
 const employee = employees.find((emp) => emp.id == 1);
 console.log(employee);
-
-
-
 
 // Task 3
 const developers = employees.filter((emp) => emp.department === "Development");
@@ -44,14 +41,11 @@ const highestSalaryEmp = employees.reduce((max, emp) =>
 
 console.log(highestSalaryEmp);
 
-
 //Task 5
 
 const totalSalary = employees.reduce((total, emp) => total + emp.salary, 0);
 const averageSalary = totalSalary / employees.length;
 console.log("Average Salary of All Employees:", averageSalary);
-
-
 
 //Task 6
 const sortEmployees = employees.sort((a, b) => a.salary - b.salary);
@@ -76,13 +70,16 @@ if (updateEmployee) {
 console.log(updateEmployee);
 
 //Task 9
-const removeEmployee = employees.splice(employees.findIndex((emp) => emp.id === 3), 1);
+const removeEmployee = employees.splice(
+  employees.findIndex((emp) => emp.id === 3),
+  1,
+);
 console.log(removeEmployee);
 
 console.log("All Employees:");
 console.log(employees);
 
-
 //task 10
 const searchEmployee = employees.find((emp) => emp.name === "Naresh Prajapati");
+
 console.log(searchEmployee);

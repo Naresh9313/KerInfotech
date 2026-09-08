@@ -32,3 +32,26 @@ Default Parameter
 ↓
 Argument na mile to default value
 
+//return function
+function naresh(a,b){
+  return a+b;
+}
+let data =naresh(a=10,b=20);
+console.log(data)
+
+
+
+//console.log
+function jatin(a,b){
+  console.log(10+20)
+}
+let data1 =jatin(a=10,b=20);
+console.log(data1)
+
+
+
+//ternary (if else condition check krva mate)
+
+let number=10
+let result = number % 2 === 0 ? "Even" :"odd";
+console.log(result)

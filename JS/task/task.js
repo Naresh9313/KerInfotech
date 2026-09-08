@@ -35,11 +35,17 @@ const developers = employees.filter((emp) => emp.department === "Development");
 console.log(developers);
 
 // Task 4
-const highestSalaryEmp = employees.reduce((max, emp) =>
-  emp.salary > max.salary ? emp : max,
-);
+const highestSalaryEmp = employees.length > 0
+  ? employees.reduce((max, emp) =>
+      emp.salary > max.salary ? emp : max
+    )
+  : null;
 
-console.log(highestSalaryEmp);
+if (highestSalaryEmp) {
+  console.log(highestSalaryEmp);
+} else {
+  console.log("No employees found");
+}
 
 //Task 5
 
@@ -83,3 +89,9 @@ console.log(employees);
 const searchEmployee = employees.find((emp) => emp.name === "Naresh Prajapati");
 
 console.log(searchEmployee);
+
+
+
+
+
+

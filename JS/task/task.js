@@ -47,6 +47,7 @@ if (highestSalaryEmp) {
   console.log("No employees found");
 }
 
+
 //Task 5
 
 const totalSalary = employees.reduce((total, emp) => total + emp.salary, 0);
